@@ -1,4 +1,4 @@
-# node-ninja-rmm
+# ninja-rmm-node
 
 ## Installation
 
