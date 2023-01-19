@@ -1,5 +1,5 @@
 {
-  "name": "node-ninja-rmm",
+  "name": "ninja-rmm-node",
   "version": "1.0.0",
   "description": "Module to query NinjaOne RMM API",
   "main": "dist/bundle.js",

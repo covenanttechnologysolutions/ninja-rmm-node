@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install node-ninja-rmm
+npm install ninja-rmm-node
 ```
 
 ## Usage
@@ -11,12 +11,12 @@ npm install node-ninja-rmm
 CommonJS
 
 ```javascript
-const NinjaRMM = require('node-ninja-oauth')
+const NinjaRMM = require('ninja-rmm-node')
 ```
 
 ESM
 ```javascript
-import NinjaRMM from 'node-ninja-oauth'
+import NinjaRMM from 'ninja-rmm-node'
 ```
 
 ## Options
