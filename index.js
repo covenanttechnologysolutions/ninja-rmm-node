@@ -1,3 +1,4 @@
-import NinjaRMM from './src/ninja-rmm.js'
+const NinjaRMM = require('./src/ninja-rmm.js')
 
-export default NinjaRMM
+module.exports = NinjaRMM
+

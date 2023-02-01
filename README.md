@@ -21,7 +21,7 @@ import NinjaRMM from 'ninja-rmm-node'
 
 ## Options
 
-Uses `client_credentials` auth. 
+Uses `client_credentials` auth.
 
 ```javascript
 const options = {
@@ -36,4 +36,11 @@ const ninja = new NinjaRMM(options)
 
 ```javascript
 const result = await ninja.request({path: '/api/v2/organizations', method: 'get'})
+```
+Or:
+```javascript
+ninja.request(options)
+  .then(result => {
+    // use result
+  })
 ```

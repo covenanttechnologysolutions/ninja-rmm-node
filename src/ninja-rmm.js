@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios')
 
 /**
  *
@@ -36,7 +36,7 @@ const REGION_TOKEN_URL = (region) => {
   }
 }
 
-export default class NinjaRMM {
+class NinjaRMM {
   region
   clientSecret
   clientId
@@ -85,7 +85,8 @@ export default class NinjaRMM {
         authorization: `Bearer ${this.accessToken}`,
       },
       method,
-      url: `${REGION_API_URL(this.region)}${path}`,
+      baseURL: REGION_API_URL(this.region),
+      url: path,
       params,
       data,
     }
@@ -135,3 +136,5 @@ export default class NinjaRMM {
     return result.data
   }
 }
+
+module.exports = NinjaRMM
