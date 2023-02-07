@@ -1,9 +1,8 @@
 {
   "name": "ninja-rmm-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module to query NinjaOne RMM API",
-  "main": "dist/bundle.js",
-  "module": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
