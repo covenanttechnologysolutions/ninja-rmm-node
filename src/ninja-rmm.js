@@ -132,7 +132,6 @@ class NinjaRMM {
       })
       this.accessToken = token.access_token
       this.tokenExpiration = Date.now() + token.expires_in * 1000
-      console.log({ accessToken: this.accessToken })
     }
 
     const options = {
