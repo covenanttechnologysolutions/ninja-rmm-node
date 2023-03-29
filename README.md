@@ -86,7 +86,7 @@ ninja.request(options)
 
 Generate a token for use elsewhere with these static methods:
 ```javascript
-const token = NinjaRMM.generateTokenClientCredentials({clientSecret, clientId, scope, region})
-const token = NinjaRMM.generateTokenRefresh({clientSecret, clientId, region, refreshToken})
-const token = NinjaRMM.generateTokenAuthorizationCode({clientSecret, clientId, region, scope})
+const token = await NinjaRMM.generateTokenClientCredentials({clientSecret, clientId, scope, region})
+const token = await NinjaRMM.generateTokenRefresh({clientSecret, clientId, region, refreshToken})
+const token = await NinjaRMM.generateTokenAuthorizationCode({clientSecret, clientId, region, scope})
 ```
